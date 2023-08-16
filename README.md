@@ -1,4 +1,4 @@
 
-Source-Free Active Domain Adaptation for Gross Tumor Volume of Nasopharyngeal Carcinoma Segmentation across Multiple Hospitals
+Dual-Reference Source-Free Active Domain Adaptation for Nasopharyngeal Carcinoma Tumor Segmentation across Multiple Hospitals
 
 Coming soon!!!
