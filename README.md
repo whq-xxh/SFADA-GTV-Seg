@@ -9,8 +9,10 @@ You can access the paper [here](https://ieeexplore.ieee.org/abstract/document/10
 
 This project introduces a new setting in medical image segmentation, termed **Source-Free Active Domain Adaptation (SFADA)**. SFADA aims to facilitate cross-center medical image segmentation while protecting data privacy and reducing the workload on medical professionals. By requiring only minimal labeling effort, SFADA achieves effective model transfer and results comparable to those of fully supervised approaches.
 
+Visual comparison of traditional training and our <u>Source-Free Active Domain Adaptation (SFADA)</u> training.
 <img width="1546" alt="compa" src="https://github.com/whq-xxh/Active-GTV-Seg/assets/119860058/faea09fc-2437-434d-a332-356529a101ea">
-Visual comparison of traditional training and our Source-Free Active Domain Adaptation (SFADA) training. Our approach safeguards the source data while demanding only a minimal annotation effort.
+Visual comparison of traditional training and our Source-Free Active Domain Adaptation (SFADA) training.
+
 
 
 ## How to Run the Code 🛠
