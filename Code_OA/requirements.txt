@@ -1,0 +1,38 @@
+# This file may be used to create an environment using:
+# $ conda create --name <env> --file <this file>
+# platform: linux-64
+@EXPLICIT
+https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/linux-64/mkl-2017.0.3-0.tar.bz2
+http://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/linux-64/_libgcc_mutex-0.1-main.conda
+https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/linux-64/ca-certificates-2023.5.7-hbcca054_0.conda
+https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/linux-64/libgfortran5-13.1.0-h15d22d2_0.conda
+http://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/linux-64/libstdcxx-ng-11.2.0-h1234567_1.conda
+https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/linux-64/libgfortran-ng-13.1.0-h69a702a_0.conda
+http://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/linux-64/libgomp-11.2.0-h1234567_1.conda
+http://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/linux-64/_openmp_mutex-5.1-1_gnu.conda
+http://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/linux-64/libgcc-ng-11.2.0-h1234567_1.conda
+https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/linux-64/cudatoolkit-11.2.2-hbe64b41_10.tar.bz2
+http://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/linux-64/libffi-3.2.1-hf484d3e_1007.conda
+https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/linux-64/libopenblas-0.3.20-pthreads_h78a6416_0.tar.bz2
+http://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/linux-64/ncurses-6.3-h5eee18b_3.conda
+https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/linux-64/openssl-1.0.2u-h516909a_0.tar.bz2
+http://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/linux-64/xz-5.2.6-h5eee18b_0.conda
+http://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/linux-64/zlib-1.2.13-h5eee18b_0.conda
+https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/linux-64/libblas-3.9.0-15_linux64_openblas.tar.bz2
+http://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/linux-64/libedit-3.1.20210910-h7f8727e_0.conda
+http://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/linux-64/readline-7.0-h7b6447c_5.conda
+http://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/linux-64/tk-8.6.12-h1ccaba5_0.conda
+https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/linux-64/libcblas-3.9.0-15_linux64_openblas.tar.bz2
+https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/linux-64/liblapack-3.9.0-15_linux64_openblas.tar.bz2
+http://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/linux-64/sqlite-3.33.0-h62c20be_0.conda
+https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/linux-64/libfaiss-1.7.2-cuda112hc9ed507_0_cuda.tar.bz2
+https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/linux-64/libfaiss-avx2-1.7.2-cuda112h1234567_0_cuda.tar.bz2
+http://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/linux-64/python-3.7.0-h6e4f718_3.conda
+https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/noarch/certifi-2023.5.7-pyhd8ed1ab_0.conda
+https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/linux-64/python_abi-3.7-2_cp37m.tar.bz2
+http://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/noarch/wheel-0.37.1-pyhd3eb1b0_0.conda
+https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/linux-64/numpy-1.21.6-py37h976b520_0.tar.bz2
+http://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/linux-64/setuptools-63.4.1-py37h06a4308_0.conda
+https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/linux-64/faiss-1.7.2-py37cuda112h264c770_0_cuda.tar.bz2
+http://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/linux-64/pip-22.2.2-py37h06a4308_0.conda
+https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/linux-64/faiss-gpu-1.7.2-h788eb59_4.conda
