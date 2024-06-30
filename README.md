@@ -16,7 +16,7 @@ Fig. 1. Visual comparison of traditional training and our Source-Free Active Dom
 ## Environment Installation
 `conda create --name SFADA --file Code_OA/requirements.txt`
 ### Convert nii.gz Files to h5 Format to facilitate follow-up processing and training🔄
-`python data_processing.py`
+`python dataloaders/data_processing.py`
 
 ### 1. Training source models in a single center
 `python train_single_center.py`
@@ -24,7 +24,7 @@ Fig. 1. Visual comparison of traditional training and our Source-Free Active Dom
 ### 2. Run inference and save latent space representations 
 To perform inference and save the latent space representations of all samples, use the following command:
 
-`python STDR/savefeat_source.py`
+`python STDR/save_source.py`
 
 ### 3. Cluster the Reference Points R^s 🌟
 
