@@ -1,0 +1,103 @@
+trainset: 
+valset: 
+
+model:
+    arch: deeplab101
+    pretrained: True
+    bn: sync_bn #bn, sync_abn, abn, gn
+    # bone_version: res50
+    # aux_loss: True
+    init:
+        init_type: kaiming
+        init_gain: 0.02
+    basenet:
+        name: psp_base
+        version: resnet101
+        aux_loss: True
+    default_gpu: 0
+
+data:
+    source:
+        name: SPH
+        rootpath: 
+        split: all
+        img_rows: 1052
+        img_cols: 1914
+        batch_size: 1
+        is_transform: True
+        img_norm: True
+        shuffle: False
+        n_class: 19
+    target:
+        name: SPH
+        rootpath: 
+        split: all
+        img_rows: 1052
+        img_cols: 1914
+        batch_size: 1
+        is_transform: True
+        img_norm: True
+        shuffle: False
+        n_class: 19
+    source_valid:
+        name: 
+        rootpath: /
+        split: val
+        img_rows: 1052
+        img_cols: 1914
+        batch_size: 4
+        n_class: 19
+        shuffle: True
+    target_valid:
+        name: 
+        rootpath: /
+        split: val
+        img_rows: 1024
+        img_cols: 2048
+        batch_size: 4
+        shuffle: True
+        n_class: 19
+
+    num_workers: 6
+    n_class: 19
+training:
+    epoches: 4
+    bnaffine: True
+    train_iters: 90000
+    freeze_bn: False
+    val_interval: 1000
+    print_interval: 20
+    n_workers: 0
+    cls_feature_weight: 0.7
+    loss_source_seg: True
+    loss_L2_cls: True
+    loss_pseudo_label: True
+    valid_classes: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18]
+    augmentations:
+        # rsize: 2200
+        # rcrop: [896, 512]
+        # hflip: 0.5
+    optimizer:
+        # name: 'Adam'
+        name: 'SGD'
+        lr: 0.0001
+        weight_decay: 2.0e-4
+        momentum: 0.9
+        # betas: [0.9, 0.99]
+    loss:
+        name: 'cross_entropy'
+        size_average: True
+    lr_schedule:
+        # name: 'multi_step'
+        # milestones: [20000, 110000]
+        # gamma: 0.1
+        name: 'poly_lr'
+        gamma: 0.9
+        max_iter: 90000
+        # name: 'constant_lr'
+    resume: ..
+    Pred_resume: ..
+
+    optimizer_resume: False #True
+    gan_resume: False
+    resume_flag: True
