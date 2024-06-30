@@ -18,8 +18,15 @@ Visual comparison of traditional training and our Source-Free Active Domain Adap
 *We are currently preparing detailed instructions on how to set up and run the code. Please check back soon.*
 
 ## Dataset Information 📊
+In the Discussion section of our paper, we mentioned our efforts to construct a relevant dataset. We are pleased to offer access to this dataset, which includes anonymized data from three centers: **Center A (50 cases)** 🏥, **Center B (50 cases)** 🏨, and **Center C (60 cases)** 🏬. We invite researchers working on **multi-center segmentation** and **GTV segmentation** to make use of this valuable resource. 
 
-*Details on how to access and use the dataset for this study are currently being organized. Please check back soon.*
+Please contact Hongqiu (hongqiuwang16@gmail.com) for the dataset. One step is needed to download the dataset: **1) Use your google email to apply for the download permission ([Goole Driven](https://drive.google.com/drive/folders/1Oc6l11BRmkLfVwHW_WnnYzG0Eu2AFsB-)). We will get back to you within three days, so please don't send them multiple times. We just handle the **real-name email** and **your email suffix must match your affiliation**. The email should contain the following information:
+
+    Name/Homepage/Google Scholar: (Tell us who you are.)
+    Primary Affiliation: (The name of your institution or university, etc.)
+    Job Title: (E.g., Professor, Associate Professor, Ph.D., etc.)
+    Affiliation Email: (the password will be sent to this email, we just reply to the email which is the end of "edu".)
+    How to use: (Only for academic research, not for commercial use or second-development.)
 
 ## Citation 📖
 
