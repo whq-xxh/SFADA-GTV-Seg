@@ -1,13 +1,4 @@
-"""
-The code was borrowed from https://github.com/loli/medpy/blob/master/medpy/metric/binary.py.
-The hd_fast or hd95_fast is faster than the original hd or hd95 10 times with simialr results.
-Thanks to Mr. Yu Wu in SenseTime.
-Please use this code and .whl package in HiLab, don't share it with others!
-Please install the "med_utils" in python==3.10.x and numpy==1.23.x!!! or python==3.7.x and numpy==1.21.x!!! as follows:
-	pip install med_utils-0.0.1.1-cp310-cp310-linux_x86_64.whl # python==3.10.x
-or
-	pip install med_utils-0.0.1.1-cp37-cp37-linux_x86_64.whl # python==3.7.x
-"""
+
 import time
 from collections.abc import Iterable, Iterator
 
