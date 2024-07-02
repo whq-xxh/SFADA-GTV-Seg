@@ -1,4 +1,6 @@
-
+"""
+The code was borrowed from https://github.com/loli/medpy/blob/master/medpy/metric/binary.py.
+"""
 import time
 from collections.abc import Iterable, Iterator
 
