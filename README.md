@@ -42,7 +42,7 @@ This step is to select the actively labeled samples based on our STDR strategy. 
 
 To fine-tune the source model using the actively labeled samples selected through the STDR strategy, run the following command:
 
-`python train_single_center_fineturn.py`
+`python train_single_center_finetune.py`
 
 The results of this model correspond to the results of the STDR in the paper.
 
