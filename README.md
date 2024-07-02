@@ -48,7 +48,7 @@ The results of this model correspond to the results of the STDR in the paper.
 
 ### 6. Others
 
-Test the model with `python test_single_center.py`. `python test_generate.py.py` can be used to infer the pseudo-labels of the samples, combining the pseudo-labels with the actively labeled samples in a common model-finetuning, to get the final result of "Ours" in our paper.
+Test the model with `python test_single_center.py`. `python test_generate.py` can be used to infer the pseudo-labels of the samples, combining the pseudo-labels with the actively labeled samples in a common model-finetuning, to get the final result of "Ours" in our paper.
 
 *Feel free to contact my email (hongqiuwang16@gmail.com) with any questions on reproduction.*
 
