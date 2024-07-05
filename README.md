@@ -78,4 +78,4 @@ If you find our work useful or relevant to your research, please consider citing
 
 # Comparison with Other Methods 📈
 
-You can access these methods **ADA4MIA** [here](https://github.com/whq-xxh/SFADA4MIA).
+We acknowledge the developers of the comparative methods in **ADA4MIA** [here](https://github.com/whq-xxh/ADA4MIA).
