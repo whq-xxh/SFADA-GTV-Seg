@@ -50,7 +50,7 @@ The results of this model correspond to the results of the STDR in the paper.
 
 Test the model with `python test_single_center.py`. `python test_generate.py` can be used to infer the pseudo-labels of the samples, combining the pseudo-labels with the actively labeled samples in a common model-finetuning, to get the final result of "Ours" in our paper.
 
-**Revisiting data and code from long ago isn't a walk in the park 😴 (the paper takes months to publish). Got questions? Just ping me—let's make improvements, no gripes, skip the scolding, please! 🫡 📮: hongqiuwang16@gmail.com (Wechat: whqqq7).**
+**Revisiting data and code from long ago isn't a walk in the park 😴 (the paper takes months to publish). Got questions? Just ping me—let's make improvements, no gripes, skip the scolding, please! 🫡 📮: hongqiuwang16@gmail.com (🛰️ Wechat: whqqq7).**
 
 # Dataset 📊
 In the Discussion section of our paper, we mentioned our efforts to construct a relevant dataset. We are pleased to offer access to this Multi-center Nasopharyngeal Carcinoma (M-NPC) Segmentation, which includes anonymized data from three centers: **Center A (50 cases)** 🏥, **Center B (50 cases)** 🏨, and **Center C (60 cases)** 🏬. We invite researchers working on **multi-center segmentation** and **GTV segmentation** to make use of this valuable resource. 
